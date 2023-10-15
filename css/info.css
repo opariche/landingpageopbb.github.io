@@ -1,0 +1,28 @@
+.section_title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+}
+.title-span{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Heart Breaking Bad', sans-serif;
+    color: black;    
+}
+.section-par{
+    display: flex;
+    position: static;
+    margin-right: 10%;
+    padding: 40px;
+    border-left: solid 5px black;
+    justify-content: space-between;
+    vertical-align: auto;
+    font-family: 'Heart Breaking Bad', sans-serif;
+    color: black;
+    font-size: 40px;
+}
+

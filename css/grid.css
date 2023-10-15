@@ -1,0 +1,44 @@
+.grid-container{
+    
+    background-color: white;
+    padding: 10px;
+    margin: 50px 0;
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    border-top-left-radius: 40px 40px;
+    }
+    h1{
+        margin-bottom: 10px;
+        color: black;
+    }
+    .personajes{
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        justify-content: center;
+        color: black;
+        padding: 25px;
+        margin-left: 10%;
+        border-top-left-radius: 40px 40px;
+    }
+
+    .photos {
+        border-top-left-radius: 40px 40px;
+    }
+
+    
+    @media (max-width: 900px){
+        .personajes{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 285px);
+        }
+        .photos{
+            padding: 20px;
+            gap: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    

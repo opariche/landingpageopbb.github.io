@@ -1,0 +1,103 @@
+:root {
+    --color-white: #ffffff;          
+
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 3px;
+}
+body{
+    background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: var(--color-white);
+
+}
+
+ul {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none; 
+}
+.menu-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 30px;
+}
+ .container {
+    margin: 16px auto;
+    width: 90%;
+    
+ }
+ .nav-main {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    padding: 20px 0;
+    height: 60px;
+    font-family: 'Heart Breaking Bad', sans-serif;
+    font-size: 40px;
+ }
+
+ .nav-logo{
+    width: 50px;
+ }
+ .nav-main ul {
+    display: flex;
+
+ }
+ .nav-main ul li{
+    padding: 10px;
+ }
+ .nav-main ul li a {
+    padding: 2px;
+ }
+ .nav-main ul li a:hover {
+    border-bottom: 2px solid var(--color-white);
+ }
+.nav-search input {
+    border-radius: 4px;
+    padding: 6px;
+}
+
+
+@media (max-width: 900px){
+    .menu-btn{
+        display: block;
+    }
+    .nav-main ul.nav-menu {
+        background: #E9F5CF;
+        display: block;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 30px;
+        opacity: 0.9;
+        transform: translateX(-400px);
+        transition: transform 0.5s ease-in-out;
+        font-family: 'Heart Breaking Bad', sans-serif;
+        font-size: 100px;
+    }
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-10px);
+    }
+    .nav-main ul.nav-menu li {
+        font-family: 'Heart Breaking Bad', sans-serif;
+        font-size: 30px;
+        padding: 12px;
+    }
+    .nav-main form.nav-search {
+        margin-right: 30px;
+    }
+    
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/heart-breaking-bad');
+@import "./style.css";
+@import "./info.css";
+@import "./grid.css";
+
+
+.secbanner{
+    max-inline-size: 1280px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+}
+
+.wrapper {
+    max-inline-size: 1280px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+    border-top-left-radius: 40px 40px;
+  }
+
+  .section_title{
+    max-inline-size: 1280px;
+    padding-inline-end: 16px;
+    padding-inline-start: 16px;
+    margin: auto;
+  }
