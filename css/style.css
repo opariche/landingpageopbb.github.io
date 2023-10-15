@@ -99,5 +99,9 @@ a {
     .nav-main form.nav-search {
         margin-right: 30px;
     }
+    .section_title {
+        display: flex;
+        justify-content: center;
+    }
     
 }
