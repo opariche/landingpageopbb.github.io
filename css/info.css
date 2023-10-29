@@ -15,7 +15,6 @@
 }
 .section-par{
     display: flex;
-    position: static;
     margin-right: 10%;
     padding: 40px;
     border-left: solid 5px black;
